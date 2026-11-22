@@ -14,8 +14,8 @@ The server is `https://mcp.tarkle.tech/mcp`. The first tool call opens a browser
 ## Always start here
 
 1. Call `tarkle_list_workspaces`. Every other tool needs a `workspaceId` from it. If the person has more than one workspace, ask which one.
-2. To find a file, use `tarkle_search_files` or `tarkle_list_files`. Use `tarkle_list_folders` to find a folder.
-3. To see what is inside a file, use `tarkle_read_file`.
+2. To find a file, use `tarkle_search_files` (words inside files) or `tarkle_list_files` (newest first). To find a folder, use `tarkle_list_folders` with `query` (part of its name). When an answer has `nextCursor`, call again with it to get the next page.
+3. To see what is inside a file, use `tarkle_read_file` (its text). To get the file itself, any type, use `tarkle_get_download_link` and fetch the link at once: it expires after a few minutes.
 
 ## Common tasks
 
@@ -23,9 +23,10 @@ The server is `https://mcp.tarkle.tech/mcp`. The first tool call opens a browser
 
 **Add a file.**
 - Text you already have (notes, a report, Markdown, CSV, JSON): `tarkle_upload_text`.
+- A small file you hold as bytes (a PDF, a picture, a zip, up to 2.5 MB): `tarkle_upload_file` with the base64 content. Send its `sha256` if you know it.
 - A file at a public https address: `tarkle_upload_from_url`.
 - A file on disk, when you can run shell commands: `tarkle_start_upload`, send the bytes as instructed, then poll `tarkle_get_upload_status` until it is completed.
-- A file on the person's own device: `tarkle_get_upload_page` returns a page where the person uploads it.
+- A file on the person's own device: `tarkle_get_upload_page` returns a page where the person uploads it. Pass `folderId` and `fileName` so it lands in the right place with the right name.
 - To put it in a folder, pass `folderId` (from `tarkle_list_folders` or `tarkle_create_folder`). Without it the file goes to the library root.
 
 **Send files to someone.** Add the files, then `tarkle_create_transfer`. It returns a share link. To put a transfer in clients' portals, use `tarkle_deliver_transfer_to_contacts`.
@@ -33,6 +34,8 @@ The server is `https://mcp.tarkle.tech/mcp`. The first tool call opens a browser
 **See what happened.** `tarkle_get_activity` lists the workspace's activity, newest first: uploads, views, downloads, moves and shares, with who and when.
 
 **Collect files from someone.** `tarkle_create_file_request` returns a link the other person uploads to.
+
+**Check a round trip.** Uploads, `tarkle_list_files` and `tarkle_get_download_link` return the file's `sha256` when Tarkle recorded one. Compare it with the bytes you sent or fetched.
 
 **Edit documents.** `tarkle_convert_file` and `tarkle_edit_pdf` make new copies. The original file stays as it was.
 
