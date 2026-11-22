@@ -21,5 +21,7 @@
     "upload file",
     "share link",
     "pdf"
-  ]
+  ],
+  "repository": "https://github.com/tarkleHQ/tarkle-mcp",
+  "license": "Apache-2.0"
 }
