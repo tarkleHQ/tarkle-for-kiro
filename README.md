@@ -29,7 +29,7 @@ Tarkle acts as you, within your role in each workspace. It asks before it create
 
 1. Open Kiro, go to **Powers**, and choose **Add Custom Power**.
 2. Choose **Import power from GitHub** and enter this repository's URL, with the `kiro-power` folder. For a local copy, choose **Import power from a folder** and pick `kiro-power/`.
-3. Ask Kiro something about your Tarkle files. On the first tool call a browser window opens; sign in to Tarkle and approve the connection.
+3. Ask Kiro something about your Tarkle files. On the first tool call a browser window opens; sign in to Tarkle and approve the connection. Kiro waits about a minute for the sign-in. If the page then says localhost refused to connect, reconnect the server in Kiro and sign in again.
 
 ### Other MCP clients
 

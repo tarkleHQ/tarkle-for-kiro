@@ -9,7 +9,7 @@ Tarkle keeps a team's business files and documents in workspaces. Every action r
 
 ## Sign in
 
-The server is `https://mcp.tarkle.tech/mcp`. The first tool call opens a browser sign-in. The person signs in to Tarkle and approves the connection. No API key is needed. A person without an account can sign up at https://tarkle.tech first.
+The server is `https://mcp.tarkle.tech/mcp`. The first tool call opens a browser sign-in. The person signs in to Tarkle and approves the connection. No API key is needed. The client waits about a minute: if the person sees "localhost refused to connect", they reconnect the server and sign in again. A person without an account can sign up at https://tarkle.tech first.
 
 ## Always start here
 
