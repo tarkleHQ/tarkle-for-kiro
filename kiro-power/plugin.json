@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tarkle",
+  "version": "1.0.0",
+  "description": "Find, read and deliver your business files and documents from Kiro. Get answers cited from your own documents, convert and edit PDF and Office files, send large files and request files from clients.",
+  "author": {
+    "name": "Tarkle",
+    "email": "support@tarkle.tech",
+    "url": "https://tarkle.tech"
+  },
+  "homepage": "https://tarkle.tech/docs/mcp",
+  "keywords": [
+    "tarkle",
+    "business files",
+    "documents",
+    "document management",
+    "file sharing",
+    "send files",
+    "file request",
+    "client portal",
+    "upload file",
+    "share link",
+    "pdf"
+  ]
+}
