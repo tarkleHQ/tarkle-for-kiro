@@ -1,6 +1,6 @@
 # Tarkle for Kiro
 
-<img src="kiro-power/assets/logo.png" alt="Tarkle" width="64" height="64">
+<img src="assets/logo.png" alt="Tarkle" width="64" height="64">
 
 Tarkle is AI-powered storage for business files. Teams keep their working files there: product specs, client briefs, brand assets, exports, reports and project handoffs. The Tarkle power brings those files into Kiro, so you can find, read and deliver them without leaving your editor.
 
@@ -21,7 +21,7 @@ Kiro acts as you, within your role in each workspace. It asks before it creates 
 
 ## Install in Kiro
 
-1. Open Kiro, go to **Powers**, and choose **Add Custom Power**.
+1. Open Kiro, go to **Powers**, and choose **Add Custom Power**. On Kiro web (app.kiro.dev), open **Settings > Powers & MCP > Upload folder** and choose the `kiro-power` folder from a copy of this repository.
 2. Choose **Import power from GitHub** and enter `https://github.com/tarkleHQ/tarkle-for-kiro/tree/main/kiro-power`. From a local copy, choose **Import power from a folder** and pick `kiro-power/`.
 3. Ask Kiro something about your Tarkle files, for example "List my Tarkle workspaces". On the first tool call a browser tab opens. Sign in to Tarkle and approve the connection.
 
@@ -47,10 +47,11 @@ Add a remote MCP server with the URL `https://mcp.tarkle.tech/mcp`. The client o
 
 | Path | What it is |
 | --- | --- |
+| `kiro-power/POWER.md` | Power instructions and metadata (Kiro web, IDE and CLI) |
 | `kiro-power/plugin.json` | Power manifest: name, description, keywords |
 | `kiro-power/mcp.json` | The Tarkle MCP server connection |
 | `kiro-power/skills/tarkle/SKILL.md` | How Kiro uses Tarkle's tools |
-| `kiro-power/assets/logo.svg`, `logo.png` | Tarkle logo (SVG, and PNG at 816 x 816) |
+| `assets/logo.svg`, `assets/logo.png` | Tarkle logo (SVG, and PNG at 816 x 816) |
 
 ## Privacy and support
 
