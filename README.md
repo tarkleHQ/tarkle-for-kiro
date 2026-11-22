@@ -22,7 +22,7 @@ Kiro acts as you, within your role in each workspace. It asks before it creates 
 ## Install in Kiro
 
 1. Open Kiro, go to **Powers**, and choose **Add Custom Power**.
-2. Choose **Import power from GitHub** and enter `https://github.com/tarkleHQ/tarkle-mcp/tree/main/kiro-power`. From a local copy, choose **Import power from a folder** and pick `kiro-power/`.
+2. Choose **Import power from GitHub** and enter `https://github.com/tarkleHQ/tarkle-for-kiro/tree/main/kiro-power`. From a local copy, choose **Import power from a folder** and pick `kiro-power/`.
 3. Ask Kiro something about your Tarkle files, for example "List my Tarkle workspaces". On the first tool call a browser tab opens. Sign in to Tarkle and approve the connection.
 
 Kiro waits about a minute for the sign-in. Sign in to https://tarkle.tech first so the approval takes one click. If the tab says localhost refused to connect, the wait ran out: reconnect the server in Kiro and sign in again with the new link.
