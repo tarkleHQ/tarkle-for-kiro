@@ -21,8 +21,8 @@ Kiro acts as you, within your role in each workspace. It asks before it creates 
 
 ## Install in Kiro
 
-1. Open Kiro, go to **Powers**, and choose **Add Custom Power**. On Kiro web (app.kiro.dev), open **Settings > Powers & MCP > Upload folder** and choose the `kiro-power` folder from a copy of this repository.
-2. Choose **Import power from GitHub** and enter `https://github.com/tarkleHQ/tarkle-for-kiro/tree/main/kiro-power`. From a local copy, choose **Import power from a folder** and pick `kiro-power/`.
+1. Open Kiro, go to **Powers**, and choose **Add Custom Power**. On Kiro web (app.kiro.dev), open **Settings > Powers & MCP > Upload folder** and choose the `tarkle` folder from a copy of this repository.
+2. Choose **Import power from GitHub** and enter `https://github.com/tarkleHQ/tarkle-for-kiro/tree/main/tarkle`. From a local copy, choose **Import power from a folder** and pick `tarkle/`.
 3. Ask Kiro something about your Tarkle files, for example "List my Tarkle workspaces". On the first tool call a browser tab opens. Sign in to Tarkle and approve the connection.
 
 Kiro waits about a minute for the sign-in. Sign in to https://tarkle.tech first so the approval takes one click. If the tab says localhost refused to connect, the wait ran out: reconnect the server in Kiro and sign in again with the new link.
@@ -30,7 +30,7 @@ Kiro waits about a minute for the sign-in. Sign in to https://tarkle.tech first 
 ### Kiro CLI
 
 ```bash
-kiro-cli powers install ./kiro-power
+kiro-cli powers install ./tarkle
 ```
 
 Or add the server on its own:
@@ -47,10 +47,10 @@ Add a remote MCP server with the URL `https://mcp.tarkle.tech/mcp`. The client o
 
 | Path | What it is |
 | --- | --- |
-| `kiro-power/POWER.md` | Power instructions and metadata (Kiro web, IDE and CLI) |
-| `kiro-power/plugin.json` | Power manifest: name, description, keywords |
-| `kiro-power/mcp.json` | The Tarkle MCP server connection |
-| `kiro-power/skills/tarkle/SKILL.md` | How Kiro uses Tarkle's tools |
+| `tarkle/POWER.md` | Power instructions and metadata (Kiro web, IDE and CLI) |
+| `tarkle/plugin.json` | Power manifest: name, description, keywords |
+| `tarkle/mcp.json` | The Tarkle MCP server connection |
+| `tarkle/skills/tarkle/SKILL.md` | How Kiro uses Tarkle's tools |
 | `assets/logo.svg`, `assets/logo.png` | Tarkle logo (SVG, and PNG at 816 x 816) |
 
 ## Privacy and support
