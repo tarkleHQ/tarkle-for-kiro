@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "tarkle",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Find, read and deliver your business files and documents from Kiro. Get answers cited from your own documents, convert and edit PDF and Office files, send large files and request files from clients.",
   "author": {
     "name": "Tarkle",
@@ -20,7 +20,8 @@
     "client portal",
     "upload file",
     "share link",
-    "pdf"
+    "pdf",
+    "tags"
   ],
   "repository": "https://github.com/tarkleHQ/tarkle-for-kiro",
   "license": "Apache-2.0"
