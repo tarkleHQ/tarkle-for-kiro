@@ -18,7 +18,7 @@ Tarkle is AI-powered storage for business files. Teams keep their working files 
 - **Set up a workspace.** Create a workspace in the region you choose, change its settings, logo and address, connect a custom domain, and manage invitations and contacts.
 - **See what happened.** Read the activity log: who viewed, downloaded, moved or shared a file, and when. Check storage and AI credits left.
 
-Kiro acts as you, within your role in each workspace. It asks before it creates a public link, moves files to the bin, or changes settings, domains and invitations. A workspace owner can turn off groups of actions for AI agents and hide folders from them.
+Kiro acts as you, within your role in each workspace. It asks before it creates a public link or file request, moves files to the bin, or changes workspace settings, members, invitations, domains or portal access. A workspace owner can turn off groups of actions for AI agents and hide folders from them.
 
 ## Install in Kiro
 
