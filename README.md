@@ -46,7 +46,7 @@ Add a remote MCP server with the URL `https://mcp.tarkle.tech/mcp`. The client o
 
 ## Tools
 
-The server has 102 tools. Which ones a person can use depends on their role in each workspace and on what the workspace owner allows AI agents to do.
+The table lists the 102 tools of the Tarkle MCP server. The power connects to Tarkle's hosted server, so Kiro gets the tools that server offers at the time: ask Kiro to list the Tarkle tools to see them. Which ones a person can use depends on their role in each workspace and on what the workspace owner allows AI agents to do.
 
 | Area | Tools |
 | --- | --- |
