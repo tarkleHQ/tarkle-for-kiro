@@ -66,7 +66,7 @@ Tarkle keeps a team's business files and documents in workspaces. Every action r
 
 ## Confirmations
 
-Some tools do nothing on the first call. They return a preview and a `confirmationCode`. This covers anything that creates a public link, moves files to the bin, restores a version, removes a tag everywhere, connects or removes a domain, changes workspace or organization settings or the workspace address, resends or cancels an invitation, or changes who can see or receive workspace data. Show the preview to the person and wait for their answer. Only then call the tool again with the same inputs and the code. Never pass the code on without the person's approval.
+Some tools do nothing on the first call. They return a preview and a `confirmationCode`. This covers anything that creates a public link or file request, moves files to the bin, restores a version, removes a tag everywhere, connects or removes a domain, changes the workspace or organization details or the workspace address, changes members, invitations or portal access, or sends workspace data to someone. Logos and team folder members change without this step: check with the person before you change them. Show the preview to the person and wait for their answer. Only then call the tool again with the same inputs and the code. Never pass the code on without the person's approval.
 
 ## Rules
 
