@@ -20,7 +20,10 @@
     "document request",
     "team folders",
     "client files",
-    "upload file"
+    "upload file",
+    "documents",
+    "pdf",
+    "tags"
   ],
   "repository": "https://github.com/tarkleHQ/tarkle-for-kiro",
   "license": "Apache-2.0"
