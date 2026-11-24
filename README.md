@@ -2,6 +2,8 @@
 
 <img src="assets/logo.png" alt="Tarkle" width="64" height="64">
 
+**Upload, manage and share your business files.**
+
 Upload, store and manage your team's files and folders from Kiro. Share builds, exports and reports, and request documents from your team, clients and partners on your own domain, without leaving your editor.
 
 - MCP server: `https://mcp.tarkle.tech/mcp` (Streamable HTTP, OAuth sign-in, no API key)
