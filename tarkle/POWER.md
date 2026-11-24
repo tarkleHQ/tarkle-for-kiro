@@ -2,7 +2,7 @@
 name: "tarkle"
 displayName: "Tarkle"
 description: "Upload, store and manage your team's files and folders from Kiro. Share files and request documents from your team, clients and partners on your own domain, without leaving your editor."
-keywords: ["tarkle", "business files", "file management", "file storage", "file sharing", "share link", "file request", "document request", "team folders", "client files", "upload file"]
+keywords: ["tarkle", "business files", "file management", "file storage", "file sharing", "share link", "file request", "document request", "team folders", "client files", "upload file", "documents", "pdf", "tags"]
 ---
 
 # Onboarding
