@@ -1,8 +1,8 @@
 ---
 name: "tarkle"
 displayName: "Tarkle"
-description: "Find, read and deliver your business files and documents from Kiro. Get answers cited from your own documents, convert and edit PDF and Office files, send large files and request files from clients."
-keywords: ["tarkle", "business files", "documents", "document management", "file sharing", "send files", "file request", "client portal", "upload file", "share link", "pdf", "tags"]
+description: "Upload, store and manage your team's files and folders from Kiro. Share files and request documents from your team, clients and partners on your own domain, without leaving your editor."
+keywords: ["tarkle", "business files", "file management", "file storage", "file sharing", "share link", "file request", "document request", "team folders", "client files", "upload file"]
 ---
 
 # Onboarding
